@@ -1,0 +1,11 @@
+<ion-view view-title="Calorific">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <img ng-src="{{chat.image}}">
+        <h2>{{chat.name}}</h2>
+        <p>{{chat.meal}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view> <!--  meal tab, to display all the meals-->
